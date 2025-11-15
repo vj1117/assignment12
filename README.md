@@ -120,4 +120,30 @@ This project demonstrates the successful training of a GPT-2 style language mode
 
 The model architecture follows the standard GPT-2 design, with modifications to improve training stability. The cosine learning rate schedule with warmup and proper weight initialization were key factors in achieving stable training.
 
+
 The final model can be used for various natural language processing tasks, including text generation, completion, and potentially fine-tuning for specific applications.
+
+## Hugging Face Spaces Demo
+
+The trained model is hosted on Hugging Face Spaces, providing an interactive demo where users can experiment with text generation using this model. The app allows you to:
+
+1. Enter a custom prompt for text generation
+2. Adjust generation parameters (temperature, max length, etc.)
+3. See the model's output in real-time
+
+You can access the demo at: [GPT-2 Demo](https://huggingface.co/spaces/varsha1117/gpt2_trained)
+
+### Using the Demo
+
+1. Navigate to the Hugging Face Spaces link above
+2. Enter your prompt in the text box
+3. Adjust generation parameters if desired
+4. Click "Generate" to see the model's output
+
+This interactive demo provides a convenient way to explore the model's capabilities without needing to download or run the code locally.
+
+### Example Screenshot
+
+![Hugging Face Spaces Demo Screenshot](hugging_face_output.png)
+
+The demo showcases how the model has learned to generate text in a style similar to the training data, demonstrating its ability to capture patterns and structures from the input corpus.
