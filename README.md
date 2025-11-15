@@ -144,6 +144,7 @@ This interactive demo provides a convenient way to explore the model's capabilit
 
 ### Example Screenshot
 
-![Hugging Face Spaces Demo Screenshot](hugging_face_output.png)
+![Hugging Face Spaces Demo Screenshot](./hugging_face_output.png)
 
 The demo showcases how the model has learned to generate text in a style similar to the training data, demonstrating its ability to capture patterns and structures from the input corpus.
+
